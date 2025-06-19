@@ -1,0 +1,220 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      background: url('img/hero.png') no-repeat center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 830px;
+      height: 830px;
+    }
+
+    .section {
+      padding: 80px 0;
+    }
+
+    .service-card {
+      background: #F4F4F4;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s;
+      font-size: 24px;
+      font-family: 'Poppins';
+
+    }
+    .service-header{
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background-image: url("img/foootter.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100% ;
+      color: white;
+      padding: 40px 0;
+    }
+
+    .footer-logo {
+      background-image: url("img/037271d2-ae7b-40f0-81a1-3a21bb4373b5.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100% ;
+      width: 300px;
+      height: 120px;
+    }
+
+    .container-fluid-custom {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
+    .shirt-wrap {
+      background-image: url("img/Screenshot 2025-06-19 011023.png");
+      background-repeat: no-repeat;
+      background-size: 100% 1260px;
+      min-height: 1140px;
+    }
+
+    .navbar-nav .nav-link{
+        color: white !important;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff !important;
+    }
+    .navbar-nav{
+        gap: 50px;
+    }
+    .nav-contact{
+        width: 164px;
+        height: 54px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: lighter;
+        background-color: #275DFD;
+        color: white;
+        border-radius: 10px;
+
+    }
+    .hero-header{
+        font-family: 'Barlow';
+        font-size: 64px;
+        font-weight: bold;
+        max-width: 1100px;
+
+    }
+    .hero-section-content {
+        margin-left: 150px;
+        max-width: 50%;
+        color: white;
+        margin-top: 200px;
+    }
+    .hero-contact{
+        color: white;
+        background-color: black;
+        width: 161px;
+        height: 61px;
+        font-size: 18px;
+        font-family: 'Poppins';
+        font-weight: 100;
+        border-radius: 20px;
+        align-content: center;
+    }
+    .lead{
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: 100;
+    }
+    .line{
+        height: 1px;
+        width: calc(100% - 300px);
+        background-color: grey;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+     .circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #3B5BFE;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .section-heading{
+        font-size: 22px;
+        font-weight: bold;
+        align-items: center;
+        display: flex;
+        padding-bottom: 40px;
+    }
+    .section-heading-2{
+        font-family: 'Barlow';
+        font-size: 64px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    .gigaSegment{
+      padding-top: 25%;
+      padding-bottom: 25%;
+      height: 100%;
+      padding-right: 54px;
+    }
+    .section-content{
+        font-family: 'poppins';
+        font-size: 24px;
+        color: #565656;
+        font-weight: bold;
+    }
+    .GigaChadNerd{
+      background-image: url("img/GigaChadNerd.png");
+      border-radius: 50px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-width: 839px;
+      height: 852px;
+    }
+    .p{
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 130px;
+      height: 130px;
+    }
+    .p1{
+      background-image: url("img/p1.png");
+    }
+    .p2{
+      background-image: url("img/p2.png");
+    }
+    .p3{
+      background-image: url("img/p3.png");
+    }
+    .p4{
+      background-image: url("img/p4.png");
+    }
+    .p5{
+      background-image: url("img/p5.png");
+    }
+    .why-though{
+      padding-bottom: 64px;
+      font-family: 'Barlow';
+      font-size: 64px;
+      font-weight: 600;
+      width: 70%;
+    }
+    .thats-why{
+      font-family: 'Barlow';
+      font-size: 24px;
+      font-weight: 300;
+    }
+    .visualize-why{
+      background-image: url("img/CodingorSomthing.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 733px;
+      height: 645px;
+      border-radius: 20px;
+      MARGIN-LEFT: auto;
+    }
+    .list-unstyled{
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 100;
+    }
